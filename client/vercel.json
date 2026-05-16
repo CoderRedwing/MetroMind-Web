@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://dmrc-metro-api.onrender.com/api/$1"
+      "destination": "https://metromind-web.onrender.com/api/$1"
     }
   ]
 }
