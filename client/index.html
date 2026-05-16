@@ -4,26 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO -->
-    <title>MetroMind — Delhi Metro Route Planner & Navigator</title>
-    <meta name="description" content="Free Delhi Metro route planner with AI assistant. Find fastest DMRC routes, fare calculator, trip planner, and metro map. Works for Delhi, Noida, Gurgaon, Faridabad." />
-    <meta name="keywords" content="Delhi Metro, DMRC route planner, metro fare calculator, Delhi metro map, DMRC navigator, metro route finder, Delhi travel, Noida metro" />
+    <!-- Primary SEO -->
+    <title>MetroMind — Delhi Metro Route Planner, Fare Calculator & Navigator</title>
+    <meta name="description" content="Free Delhi Metro route planner. Find fastest DMRC routes, calculate metro fares, plan full-day trips and chat with AI metro assistant. Covers Delhi, Noida, Gurgaon, Faridabad — 220+ stations." />
+    <meta name="keywords" content="Delhi Metro route planner, DMRC route finder, Delhi metro fare calculator, metro route Delhi to Noida, DMRC navigator, Delhi metro map, metro stations Delhi, Blue Line metro, Yellow Line metro, Pink Line metro, metro fare Delhi, cheapest metro route Delhi, fastest metro route, Rajiv Chowk metro, Anand Vihar metro, Noida metro, Gurgaon metro, HUDA City Centre, metro trip planner Delhi" />
     <meta name="author" content="MetroMind" />
     <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://metro-mind-web.vercel.app/" />
 
-    <!-- Open Graph (WhatsApp, Facebook previews) -->
-    <meta property="og:title" content="MetroMind — Delhi Metro Navigator" />
-    <meta property="og:description" content="Find fastest DMRC metro routes instantly. Fare calculator, trip planner & AI metro assistant." />
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn previews) -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dmrcmetromind.vercel.app" />
+    <meta property="og:url" content="https://metro-mind-web.vercel.app/" />
+    <meta property="og:title" content="MetroMind — Delhi Metro Route Planner & Navigator" />
+    <meta property="og:description" content="Find fastest DMRC metro routes instantly. Fare calculator, trip planner & AI metro assistant. Free, no login required." />
+    <meta property="og:locale" content="en_IN" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="MetroMind — Delhi Metro Route Planner" />
     <meta name="twitter:description" content="Free Delhi Metro route planner with AI assistant. Fare calculator, trip planner & metro map." />
 
+    <!-- Structured Data (helps Google show rich results) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MetroMind",
+      "description": "Free Delhi Metro route planner with AI assistant, fare calculator and trip planner",
+      "url": "https://metro-mind-web.vercel.app/",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Delhi",
+        "containsPlace": ["Noida", "Gurgaon", "Faridabad", "Ghaziabad"]
+      }
+    }
+    </script>
+
     <!-- Google Analytics 4 -->
-    <!-- Replace G-XXXXXXXXXX with your actual GA4 tracking ID from analytics.google.com -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -31,6 +55,9 @@
       gtag('js', new Date());
       gtag('config', 'G-VYM7TFXK2Q');
     </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
